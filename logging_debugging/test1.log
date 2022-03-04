@@ -1,0 +1,24 @@
+2022-03-04 19:44:30,765 This for Logging information
+2022-03-04 19:44:30,766 This is for warning
+2022-03-04 19:44:30,766 This is for debugging
+2022-03-04 19:44:30,766 This is for Critical
+2022-03-04 19:44:30,766 This is for Error
+2022-03-04 19:44:30,766 This is Division function
+2022-03-04 19:44:30,766 The input Data: 9, 0
+2022-03-04 19:44:30,766 The information for Exception: division by zero
+2022-03-04 19:44:30,766 This is Summation function
+2022-03-04 19:44:30,766 sum = 0
+2022-03-04 19:44:30,766 User input: 1
+2022-03-04 19:44:30,766 sum = 1
+2022-03-04 19:44:30,766 User input: 2
+2022-03-04 19:44:30,766 sum = 3
+2022-03-04 19:44:30,766 User input: 3
+2022-03-04 19:44:30,766 sum = 6
+2022-03-04 19:44:30,766 User input: 4
+2022-03-04 19:44:30,766 sum = 10
+2022-03-04 19:44:30,766 User input: 5
+2022-03-04 19:44:30,766 sum = 15
+2022-03-04 19:44:30,766 User input: 6
+2022-03-04 19:44:30,766 sum = 21
+2022-03-04 19:44:30,766 User input: 7
+2022-03-04 19:44:30,767 sum = 28

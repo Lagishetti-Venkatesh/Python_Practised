@@ -1,0 +1,4 @@
+file_open:  2022-03-04 20:43:20,678 INFO Data written: Hi this is venkatesh, I am Practising OOP's concepts right now. its fun to Practise.  
+file_read:  2022-03-04 20:43:20,678 INFO Read Data: Hi this is venkatesh, I am Practising OOP's concepts right now. its fun to Practise.
+file_append:  2022-03-04 20:43:20,678 INFO Appended Data:  Sample Data which is added. 
+file_read:  2022-03-04 20:43:20,679 INFO Read Data: Hi this is venkatesh, I am Practising OOP's concepts right now. its fun to Practise.  Sample Data which is added.
