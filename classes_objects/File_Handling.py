@@ -28,9 +28,9 @@ class data:
         try:
             with open(self.file_name, "w") as file:
                 file.write(data)
-                lg_open.info("Data written: {} ".format(data))
+                lg_open.info("Data written: {0} ".format(data))
         except Exception as e:
-                lg_open.error("Exception is: {}".format(e))
+                lg_open.error("Exception is: {0}".format(e))
 
     def file_read(self):
         """
@@ -52,7 +52,7 @@ class data:
                     lg_read.info("Read Data: {}".format(data))
                     print(data)
         except Exception as e:
-                lg_read.error("Exception: ".format(e))
+                lg_read.error("Exception: {0}".format(e))
 
     def file_append(self, new_data):
         """
@@ -69,12 +69,12 @@ class data:
         lg_append = self.lg.getLogger("file_append: ")
         try:
            with open(self.file_name, "a") as file:
-               lg_append.info("Appended Data: {}".format(new_data))
+               lg_append.info("Appended Data: {0}".format(new_data))
                file.write(new_data)
                print("Data written successfully")
 
         except Exception as e:
-            lg_append("Exception: ".format(e))
+            lg_append("Exception: {0}".format(e))
 
 
 if __name__ == "__main__":
