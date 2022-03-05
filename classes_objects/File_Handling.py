@@ -49,7 +49,7 @@ class data:
             with open(self.file_name, "r") as file:
                 for line in file.readlines():
                     data = line.strip()
-                    lg_read.info("Read Data: {}".format(data))
+                    lg_read.info("Read Data: {0}".format(data))
                     print(data)
         except Exception as e:
                 lg_read.error("Exception: {0}".format(e))
