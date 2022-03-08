@@ -1,13 +1,12 @@
 import os
-from logging_Streamhandler import Logging
+from LogFunctions import get_logger
 class data:
     def __init__(self, file_name, file_type, date, size ):
         self.file_name = file_name
         self.file_type = file_type
         self.date = date
         self.size = size
-        lg_obj = Logging()
-        self.lg = lg_obj.logging_setup()
+
     def __str__(self):
         return "This is file Handling class which opens file, reads and appends the Data to the existing file."
 
@@ -23,7 +22,7 @@ class data:
         Output:
             returns the file with Newly written Text.
         """
-        lg_open = self.lg.getLogger("file_open: ")
+        lg_open =  get_logger("file_open: ")
         data = "Hi this is venkatesh, I am Practising OOP's concepts right now. its fun to Practise. "
         try:
             with open(self.file_name, "w") as file:
@@ -44,7 +43,7 @@ class data:
         Output:
             Displays the Data in the File.
         """
-        lg_read = self.lg.getLogger("file_read: ")
+        lg_read =get_logger("file_read: ")
         try:
             with open(self.file_name, "r") as file:
                 for line in file.readlines():
@@ -66,7 +65,7 @@ class data:
         Output:
             will update the file with the new data.
         """
-        lg_append = self.lg.getLogger("file_append: ")
+        lg_append = get_logger("file_append: ")
         try:
            with open(self.file_name, "a") as file:
                lg_append.info("Appended Data: {0}".format(new_data))
@@ -89,3 +88,4 @@ if __name__ == "__main__":
     obj1.file_append(" Sample Data which is added. ")
     print("Data from file After adding the New Data\n")
     obj1.file_read()
+    print(Logging.count)

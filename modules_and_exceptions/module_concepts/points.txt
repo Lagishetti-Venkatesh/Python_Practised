@@ -1,0 +1,8 @@
+1. you can just create a function python file and can import that function in another python file.
+2. you can create a class and import that class into another python file.
+3. you can import the sub-folder(internal folder files) python files within it not outside of folder python files.
+    a. be careful with naming of folder.
+
+1. HLD(High Level Design Documentation)
+
+2. LLD(Low Level Design Documentation)

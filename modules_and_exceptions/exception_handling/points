@@ -1,0 +1,9 @@
+1. inifinity exists in numpy
+2. There are two types of error
+    a. compile time error(error occurred while compiling the code.)
+    b. run time error(error occurred while running the code.)
+
+3. try except in python doesn't handle the compile time error.
+    it only handles the run time Error.
+
+4. try, except, else, finally are the four blocks available for exception handling.
