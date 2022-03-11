@@ -10,7 +10,6 @@ else: # if try executed successfully it comes here.
 finally:
     print("This will run in any circumstances.")
     l =[4, 5, 6, 7]
-    print(l[0])
 
 def askforint():
     while True:

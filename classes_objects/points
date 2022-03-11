@@ -1,0 +1,18 @@
+Abstraction: hiding the data from user is called abstraction.
+    1. no underscore ==> public (can access)  obj.variable
+    2. single underscore ==> protected (can access) obj._variable
+    3. double underscore ==> private  (can access) obj._classname__variable
+
+*args = can take many arguments
+Inheritance: inheriting the one class(parent) into another class(child)
+    a. one to one.
+    b. multiple inheritance.
+    c. multi-level inheritance.
+3. In multimple inheritance you can get the variable name directly using self.variable if it is dclared
+    outside of the init function in parent class.
+    first class passed argument will overrides the second passed class.
+    be careful in the order of passing the class names in multiple inheritance.
+4. Multi-level-Inheritance:
+    1. The classes are inherited in sequence fashion.
+    2. if same variable/ function  exists in parent classes the te variable or function
+        near to parent class are triggered.

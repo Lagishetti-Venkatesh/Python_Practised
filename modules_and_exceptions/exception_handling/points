@@ -3,7 +3,10 @@
     a. compile time error(error occurred while compiling the code.)
     b. run time error(error occurred while running the code.)
 
+example Flight Crash because of not handling an exception.
+
 3. try except in python doesn't handle the compile time error.
     it only handles the run time Error.
 
 4. try, except, else, finally are the four blocks available for exception handling.
+5. raise Exception("your description of Exception")
